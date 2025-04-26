@@ -176,7 +176,15 @@ function openAbout() {
     </head>
     <body>
       <h1>⚛ Hakkında ⚛</h1>
-      <img src="OmerFaruk.jpg" alt="Ömer Faruk Şirin">
+      <h1>⚛ Hakkında ⚛</h1>
+<img src="Omerfaruk.jpg" alt="Ömer Faruk Şirin" width="180" height="180" style="border-radius:50%; object-fit:cover; border:4px solid #c9fdd7; margin-bottom:20px;">
+<p>
+Bu site Ömer Faruk'un gönlünden dökülen mânâları 
+<br/>
+dijital bir yuvaya taşıyor.<br>
+...
+</p>
+
       <p>
         Bu site Ömer Faruk'un gönlünden dökülen mânâları 
         <br/>
