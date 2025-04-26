@@ -139,6 +139,7 @@ function showPoems() {
 }
 // Hakkında popup
 function openAbout() {
+    function openAbout() {
     const aboutWindow = window.open("", "aboutPage", "width=600,height=750");
     aboutWindow.document.write(`
     <!DOCTYPE html>
@@ -176,33 +177,18 @@ function openAbout() {
     </head>
     <body>
       <h1>⚛ Hakkında ⚛</h1>
-      
-<img src="Omerfaruk.jpg" alt="Ömer Faruk Şirin" width="180" height="180" style="border-radius:50%; object-fit:cover; border:4px solid #c9fdd7; margin-bottom:20px;">
-<p>
-Bu site Ömer Faruk'un gönlünden dökülen mânâları 
-<br/>
-dijital bir yuvaya taşıyor.<br>
-...
-</p>
-
+      <img src="https://raw.githubusercontent.com/omerfaruksirin/siir-sitesi/main/profil.jpg" alt="Ömer Faruk Şirin">
       <p>
         Bu site Ömer Faruk'un gönlünden dökülen mânâları 
         <br/>
         dijital bir yuvaya taşıyor.<br>
-        Her bir dize, ruhunuzda iz bırakacak...<br>
-        Huzura, aşka ve maneviyata adım atın! 
-        <br><br>
-        Ömer Faruk Şirin, 16 Eylül 2000 tarihinde Sakarya'nın Adapazarı ilçesinde doğmuştur. 
-        Çocukluk yıllarını Akyazı'da geçiren Ömer Faruk, lise eğitimine burada başlamış,
-        daha sonra Adapazarı'nda devam etmiş ve liseyi açık öğretimle tamamlamıştır.<br><br>
-        Ud çalmayı seven Ömer Faruk, duygularını şiir ve yazarlıkla dile getirmektedir. 
-        Manevi ve derin bir iç dünyaya sahip olan Ömer Faruk, aynı zamanda "Eltek Mühendislik" adında bir şirketi yönetmektedir.
-        Bu şirketle camilere yönelik projeler yürütmekte ve bu alanda çalışmalar yapmaktadır.
+        Ruhun derinliklerine doğru bir yolculuk yapmaya hazır mısınız? 🌟
       </p>
     </body>
     </html>
-  `); // Bu parantez de doğru
+  `);
 }
+
 
 // İletişim popup
 function openContact() {
