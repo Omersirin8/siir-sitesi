@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Şiir Sitesi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>⚛ HOŞGELDİNİZ ⚛</h1>
+        <nav>
+            <p>&copy; 2024 Tüm hakları saklıdır.</p>
+        </nav>
+    </header>
+
+    <main>
+        <div class="fade-text-container">
+            <div id="fade1" class="fade-text">
+                Ömer Faruk'un kaleminden dökülen mânâlar ile baş başasınız!
+            </div>
+            <div id="fade2" class="fade-text">
+                (Hikmeti dilediğine verir.<br>
+                Ve kime hikmet verilmişse, elbette ona pek çok hayır verilmiştir.<br>
+                Akıl sahiplerinden başkası bunu anlamaz.)<br><br>
+                <strong>BAKARA 269</strong>
+            </div>
+
+            <div id="alt-menu" class="alt-menu">
+                <a href="#" onclick="showPoems()">ŞİİRLERİ</a>
+                <a href="#" onclick="openAbout()">Hakkında</a>
+                <a href="#" onclick="openContact()">İletişim</a>
+            </div>
+        </div>
+    </main>
+
+    <!-- Arka planda otomatik müzik -->
+    <audio id="background-music" src="Muzık.mp3" autoplay loop hidden></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
