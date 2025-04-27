@@ -177,7 +177,7 @@ function openAbout() {
     </head>
     <body>
       <h1>⚛ Hakkında ⚛</h1>
-      <img src="https://raw.githubusercontent.com/omerfaruksirin/siir-sitesi/main/profil.jpg" alt="Ömer Faruk Şirin">
+      <img src="https://raw.githubusercontent.com/omerfaruksirin/siir-sitesi/main/OmerFaruk.jpg" alt="Ömer Faruk Şirin">
       <p>
         Bu site Ömer Faruk'un gönlünden dökülen mânâları 
         <br/>
