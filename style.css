@@ -70,3 +70,26 @@ footer {
         .alt-menu a:hover {
             background-color: #1d6b34;
         }
+/* Mobil uyumlu tasarım */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    .fade-text {
+        font-size: 1.2rem;
+    }
+
+    .alt-menu a {
+        display: block;
+        margin: 10px auto;
+        width: 80%;
+        font-size: 1.2rem;
+    }
+
+    .poem-card {
+        width: 90%;
+        max-width: 400px;
+        font-size: 1.1rem;
+    }
+}
