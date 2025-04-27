@@ -66,7 +66,7 @@ function showPoems() {
       </style>
     </head>
     <body>
-      <h1>⚛ Şiirleri ⚛</h1>
+      <h1>- Şiirleri -</h1>
 
       <div class="poem-card" onclick="openPoem('Benden De Öte', 'İki yanım vardır, biri bilmece!\\nHer an bir işteyim, Gündüz ve Gece!\\nBir deniz var içte, pek de derince!\\nBir ben var içimde, benden de öte!\\n\\nYok benim sınırım, yok benim çizgim!\\nBen en yakın göğe, yıldızlar dizdim!\\nDünya yollarında, epey yol gezdim!\\nBir ben var içimde, benden de öte!\\n\\nEsenlik eyledim, yanan ateşi!\\nİzlerim Dünya’yı, Ay’ı, Güneş’i!\\nArştaki özümün, yoktur bir eşi!\\nBir ben var içimde, benden de öte!\\n\\nYağmur damlaları, denize düştü!\\nKelebekler uçup, ateşe düştü!\\nBenim özüm artık, O’na dönüştü!\\nBir ben var içimde, benden de öte!')">
         <h2>Benden De Öte</h2>
