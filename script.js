@@ -238,4 +238,11 @@ function openContact() {
         music.play();
         document.getElementById('play-music').style.display = 'none';
     }
+    // Müzik Başlat Butonu
+document.getElementById('play-music').addEventListener('click', function() {
+    const music = document.getElementById('background-music');
+    music.play();
+    this.style.display = 'none'; // Butonu gizle
+};
+
 }
