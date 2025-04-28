@@ -201,7 +201,7 @@ function openAbout() {
     </head>
     <body>
       <h1> Hakkında </h1>
-     https://raw.githubusercontent.com/omerfaruksirin/siir-sitesi/main/OmerFaruk.jpg
+      <img src="https://raw.githubusercontent.com/omerfaruksirin/siir-sitesi/main/OmerFaruk.jpg" alt="Ömer Faruk Şirin">
 
       <p>
         Bu site Ömer Faruk'un gönlünden dökülen mânâları 
@@ -220,7 +220,10 @@ function openAbout() {
         Bu şirketle camilere yönelik projeler yürütmekte ve bu alanda çalışmalar yapmaktadır.
       </p>
 
-
+<div class="navigation-buttons">
+          <button onclick="window.history.back()">⬅️ Geri</button>
+          <button onclick="window.history.forward()">İleri ➡️</button>
+      </div>
     </body>
     </html>
     `);
