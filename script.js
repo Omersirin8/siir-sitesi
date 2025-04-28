@@ -242,23 +242,11 @@ function openContact() {
     `);
 }
 
-// 🎵 Müzik Başlatma Fonksiyonu
-function playMusic() {
-    const music = document.getElementById('background-music');
-    music.play()
-        .then(() => {
-            console.log('Müzik başarıyla başladı.');
-            document.getElementById('playButton').style.display = 'none'; // Buton gizlensin
-        })
-        .catch(error => {
-            console.error('Müzik çalma hatası:', error);
-        });
+function goBack() {
+    window.history.back();
 }
 
-// 🎵 Müzik Başlatma Butonuna Tıklama
-document.addEventListener('DOMContentLoaded', function () {
-    const playButton = document.getElementById('playButton');
-    if (playButton) {
-        playButton.addEventListener('click', playMusic);
-    }
-});
+function goForward() {
+    window.history.forward();
+}
+
