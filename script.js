@@ -122,7 +122,34 @@ function showPoems() {
                   font-size: 1.2rem;
                   line-height: 1.8;
                 }
+                <div class="navigation-buttons">
+    <button onclick="window.history.back()">⬅️ Geri</button>
+    <button onclick="window.history.forward()">İleri ➡️</button>
+</div>
+
+<style>
+.navigation-buttons {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.navigation-buttons button {
+    background-color: #014421;
+    color: #c9fdd7;
+    border: 2px solid #c9fdd7;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.navigation-buttons button:hover {
+    background-color: #1d6b34;
+}
               </style>
+              
             </head>
             <body>
               <h1>\${title}</h1>
@@ -195,6 +222,11 @@ function openAbout() {
         Manevi ve derin bir iç dünyaya sahip olan Ömer Faruk, aynı zamanda "Eltek Mühendislik" adında bir şirketi yönetmektedir.
         Bu şirketle camilere yönelik projeler yürütmekte ve bu alanda çalışmalar yapmaktadır.
       </p>
+      <div class="navigation-buttons">
+    <button onclick="window.history.back()">⬅️ Geri</button>
+    <button onclick="window.history.forward()">İleri ➡️</button>
+</div>
+
     </body>
     </html>
     `);
