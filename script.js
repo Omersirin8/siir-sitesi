@@ -68,25 +68,31 @@ function showPoems() {
     <body>
       <h1>- Şiirleri -</h1>
 
-      <div class="poem-card" onclick="openPoem('Benden De Öte', 'İki yanım vardır, biri bilmece!\\nHer an bir işteyim, Gündüz ve Gece!...')">
+      <div class="poem-card" onclick="openPoem('Benden De Öte', 'İki yanım vardır, biri bilmece!\\nHer an bir işteyim, Gündüz ve Gece!\\nBir deniz var içte, pek de derince!\\nBir ben var içimde, benden de öte!\\n...')">
         <h2>Benden De Öte</h2>
       </div>
-      <div class="poem-card" onclick="openPoem('Ben Varım', 'Gönül bin yol aşıp, sona yanaştı...')">
+
+       <div class="poem-card" onclick="openPoem('Ben Varım', 'Gönül bin yol aşıp, sona yanaştı\\nHatta ondan öte, sonu da aştı\\nGönlümün deryası, aşk ile taştı\\nSemâda ben varım, yeryüzünde ben!\\n\\nBütün karanlıkta, gece içinde\\nŞafak zamanında, bülbül dilinde\\nÂşık içindeyim, gönül ilinde\\nGönülde ben varım, âşıklarda ben!\\n\\nAkan bir gemiydim, sonunda durdum\\nMânâ denizinden, karaya vurdum\\nBir yanan ateştim, yanıp tutuştum\\nMânâda ben varım, derinlerde ben!\\n\\nHer güzel şeydeyim, görünmezdeyim\\nBir sırrın içinde, bilinmezdeyim\\nAşığım, Ömer’im, ölmez özdeyim\\nGeçmişte ben varım, gelecekte ben!')">
         <h2>Ben Varım</h2>
       </div>
-      <div class="poem-card" onclick="openPoem('Göremez Beni', 'Yûsuf’un yanında, o kuyudayım...')">
+
+      <div class="poem-card" onclick="openPoem('Göremez Beni', 'Yûsuf’un yanında, o kuyudayım\\nTüm yalnızlığında, her ânındayım\\nUzakta değilim, en yakındayım\\nYûsuf’un gözleri, göremez beni!\\n\\nYûnus’un yanında, balık içinde\\nDerin sulardayım, deniz içinde\\nBen onu görürken, feryât içinde\\nYûnus’un gözleri, göremez beni!\\n\\nMûsa maksâdını, görmeyi andı\\nGörülmez olanı, görülür sandı\\nNûr tecelli etti, dağ parçalandı\\nMûsâ’nın gözleri, göremez beni!\\n\\nGözlerden uzağım, bir görülmezim\\nHem bilinenim hem, bir bilinmezim\\nAdım Ömer Faruk, özde bir gizim\\nFânîlerin gözü, göremez beni!')">
         <h2>Göremez Beni</h2>
       </div>
-      <div class="poem-card" onclick="openPoem('Hâlim Üstüne Hal Mi Var', 'Erdi hâlim aşktan nâra...')">
+
+      <div class="poem-card" onclick="openPoem('Hâlim Üstüne Hal Mi Var', 'Erdi hâlim aşktan nâra\\nO nâr ki cân katar câna\\nAkıl ermez bu esrâra\\nHâlim üstüne hal mi var?\\n\\nPek aradım ben kendimi\\nYaktım aşkla tüm sînemi\\nBir nâr-ı aşk, vurdu beni\\nHâlim üstüne hal mi var?\\n\\nPek aradım ben yüzümü\\nRabde buldum ben özümü\\nNeyler gâfil hak sözümü\\nHâlim üstüne hal mi var?\\n\\nHayat mânâdır Ömer’e\\nMânâ lütuf tüm erene\\nHangi eren ben üstüne\\nHâlim üstüne hal mi var?')">
         <h2>Hâlim Üstüne Hal Mi Var</h2>
       </div>
-      <div class="poem-card" onclick="openPoem('Ölmedim Ki Ben', 'Toprağın içinde sanma sen beni...')">
+
+      <div class="poem-card" onclick="openPoem('Ölmedim Ki Ben', 'Toprağın içinde sanma sen beni\\nDışındayım kabrin diri bil beni\\nCümle alem öldü bilirken beni\\nHiçbir gün hiçbir an ölmedim ki ben!\\n\\nDeğmedi özüme ölüm meleği\\nDeğemez özüme meleğin eli\\nGelse de bedenin o gün eceli\\nHiçbir gün hiçbir an ölmedim ki ben!\\n\\nBir sırra sahibim özüm hakkında\\nBir sırra dahilim ölüm hakkında\\nÖldü derler iken benim hakkımda\\nHiçbir gün hiçbir an ölmedim ki ben!')">
         <h2>Ölmedim Ki Ben</h2>
       </div>
-      <div class="poem-card" onclick="openPoem('Sûretimdir Ancak Benim', 'Bazı anlar dert taşıyan...')">
+
+      <div class="poem-card" onclick="openPoem('Sûretimdir Ancak Benim', 'Bazı anlar dert taşıyan\\nBuhrân ile günler aşan\\nHata ile zünnûn olan\\nSuretimdir ancak benim\\n\\nGözler ile görülen ben\\nGözler ile bakılan ben\\nEller ile gömülen ben\\nSuretimdir ancak benim\\n\\nGerisinde boş söz eden\\nDert meyine meyil eden\\nBazı anda yanlış eden\\nSuretimdir ancak benim\\n\\nSor Ömer’in sen aslını\\nBir o var ki ondan öte\\nSuret değil gerçek aslı\\nBir özü var özden öte')">
         <h2>Sûretimdir Ancak Benim</h2>
       </div>
-      <div class="poem-card" onclick="openPoem('Sır', 'Giz yolunu hiç bilmezdim...')">
+
+      <div class="poem-card" onclick="openPoem('Sır', 'Giz yolunu hiç bilmezdim\\nBin yolu ben hiç gezmezdim\\nBâtına ben hiç ermezdim\\nOlmasaydı sırrı kalbin\\n\\nİndim gönle Güneş gibi\\nYandım aşkla ateş gibi\\nOlur muydum ayyaş gibi\\nOlmasaydı sırrı kalbin\\n\\nTaktım arda Âlemleri\\nVerdim nâra göğü yeri\\nÇarpmazdım ben sineleri\\nOlmasaydı sırrı kalbin\\n\\nKimdir Ömer dedikleri\\nNedir sırra erdikleri\\nBilmezdim hiç gizemleri\\nOlmasaydı sırrı kalbin')">
         <h2>Sır</h2>
       </div>
 
@@ -173,16 +179,8 @@ function openAbout() {
       <h1>☀ Hakkında ☀</h1>
       <img src="https://raw.githubusercontent.com/omerfaruksirin/siir-sitesi/main/OmerFaruk.jpg" alt="Ömer Faruk Şirin">
       <p>
-        Bu site Ömer Faruk'un gönlünden dökülen mânâları <br/>
-        dijital bir yuvaya taşıyor.<br>
-        Her bir dize, ruhunuzda iz bırakacak...<br>
-        Huzura, aşka ve maneviyata adım atın! <br/><br/>
-        Ömer Faruk Şirin, 16 Eylül 2000 tarihinde Sakarya'nın Adapazarı ilçesinde doğmuştur. <br/>
-        Çocukluk yıllarını Akyazı'da geçiren Ömer Faruk, lise eğitimine burada başlamış,<br/>
-        daha sonra Adapazarı'nda devam etmiş ve liseyi açık öğretimle tamamlamıştır.<br/><br/>
-        Ud çalmayı seven Ömer Faruk, duygularını şiir ve yazarlıkla dile getirmektedir.<br/>
-        Manevi ve derin bir iç dünyaya sahip olan Ömer Faruk, aynı zamanda "Eltek Mühendislik" adında bir şirketi yönetmektedir.<br/>
-        Bu şirketle camilere yönelik projeler yürütmekte ve bu alanda çalışmalar yapmaktadır.
+        Bu site Ömer Faruk'un gönlünden dökülen mânâları dijital bir yuvaya taşıyor.<br/>
+        Ruhun derinliklerine doğru bir yolculuk yapmaya hazır mısınız? 🌟
       </p>
     </body>
     </html>
@@ -224,9 +222,7 @@ function openContact() {
       <h1>📬 İletişim</h1>
       <p>
         Instagram üzerinden ulaşabilirsiniz!<br><br>
-        <a href="https://instagram.com/omrfsirin" target="_blank">
-         https://instagram.com/omrfsirin
-        </a>
+        <a href="https://instagram.com/omrfsirin" target="_blank">https://instagram.com/omrfsirin</a>
       </p>
     </body>
     </html>
@@ -238,15 +234,15 @@ function playMusic() {
     const music = document.getElementById('background-music');
     music.play()
         .then(() => {
-            console.log('Müzik başarıyla çalmaya başladı.');
-            document.getElementById('playButton').style.display = 'none'; // Butonu gizler
+            console.log('Müzik başarıyla başladı.');
+            document.getElementById('playButton').style.display = 'none'; // Buton gizlensin
         })
         .catch(error => {
-            console.log('Müzik çalma hatası:', error);
+            console.error('Müzik çalma hatası:', error);
         });
 }
 
-// 🎵 Müzik Başlatma Butonu Olayı
+// 🎵 Müzik Başlatma Butonuna Tıklama
 document.addEventListener('DOMContentLoaded', function () {
     const playButton = document.getElementById('playButton');
     if (playButton) {
