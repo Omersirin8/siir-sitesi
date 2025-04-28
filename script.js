@@ -122,10 +122,7 @@ function showPoems() {
                   font-size: 1.2rem;
                   line-height: 1.8;
                 }
-                <div class="navigation-buttons">
-    <button onclick="window.history.back()">⬅️ Geri</button>
-    <button onclick="window.history.forward()">İleri ➡️</button>
-</div>
+
 
 <style>
 .navigation-buttons {
