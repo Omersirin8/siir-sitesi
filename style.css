@@ -93,27 +93,4 @@ footer {
         font-size: 1.1rem;
     }
 }
-.navigation-buttons {
-    position: fixed;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex;
-    gap: 20px;
-    z-index: 9999;
-}
 
-.navigation-buttons button {
-    background-color: #014421;
-    color: #c9fdd7;
-    border: 2px solid #c9fdd7;
-    border-radius: 8px;
-    padding: 10px 20px;
-    font-size: 1rem;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-.navigation-buttons button:hover {
-    background-color: #1d6b34;
-}
