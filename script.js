@@ -138,26 +138,61 @@ function showPoems() {
     `);
 }
 
-// 🎵 Müzik Başlat Fonksiyonu
-function playMusic() {
-    const music = document.getElementById('background-music');
-    if (music) {
-        music.play()
-            .then(() => {
-                console.log('Müzik başarıyla başladı.');
-                const playButton = document.getElementById('playButton');
-                if (playButton) playButton.style.display = 'none';
-            })
-            .catch(error => {
-                console.error('Müzik çalma hatası:', error);
-            });
-    }
+function openAbout() {
+    const aboutWindow = window.open("", "aboutPage", "width=600,height=750");
+    aboutWindow.document.write(`
+    <!DOCTYPE html>
+    <html lang="tr">
+    <head>
+      <meta charset="UTF-8">
+      <title>Hakkında</title>
+      <style>
+        body {
+          background-color: #013220;
+          color: #ffffff;
+          font-family: 'Segoe UI', sans-serif;
+          padding: 20px;
+          text-align: center;
+        }
+        h1 {
+          color: #c9fdd7;
+          margin-bottom: 10px;
+        }
+        img {
+          width: 180px;
+          height: 180px;
+          border-radius: 50%;
+          object-fit: cover;
+          border: 4px solid #c9fdd7;
+          margin-bottom: 20px;
+        }
+        p {
+          line-height: 1.8;
+          font-size: 1rem;
+          max-width: 500px;
+          margin: 0 auto;
+        }
+      </style>
+    </head>
+    <body>
+      <h1>☀ Hakkında ☀</h1>
+      <img src="https://raw.githubusercontent.com/omerfaruksirin/siir-sitesi/main/OmerFaruk.jpg" alt="Ömer Faruk Şirin">
+      <p>
+        Bu site Ömer Faruk'un gönlünden dökülen mânâları <br/>
+        dijital bir yuvaya taşıyor.<br>
+        Her bir dize, ruhunuzda iz bırakacak...<br>
+        Huzura, aşka ve maneviyata adım atın! <br/><br/>
+
+        Ömer Faruk Şirin, 16 Eylül 2000 tarihinde Sakarya'nın Adapazarı ilçesinde doğmuştur. <br/>
+        Çocukluk yıllarını Akyazı'da geçiren Ömer Faruk, lise eğitimine burada başlamış,<br/>
+        daha sonra Adapazarı'nda devam etmiş ve liseyi açık öğretimle tamamlamıştır.<br/><br/>
+
+        Ud çalmayı seven Ömer Faruk, duygularını şiir ve yazarlıkla dile getirmektedir.<br/>
+        Manevi ve derin bir iç dünyaya sahip olan Ömer Faruk, aynı zamanda "Eltek Mühendislik" adında bir şirketi yönetmektedir.<br/>
+        Bu şirketle camilere yönelik projeler yürütmekte ve bu alanda çalışmalar yapmaktadır.
+      </p>
+    </body>
+    </html>
+    `);
 }
 
-// 🎵 Butona tıklayınca müzik başlasın
-document.addEventListener('DOMContentLoaded', function () {
-    const playButton = document.getElementById('playButton');
-    if (playButton) {
-        playButton.addEventListener('click', playMusic);
-    }
-});
