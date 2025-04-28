@@ -263,33 +263,7 @@ function openContact() {
         Instagram üzerinden ulaşabilirsiniz!<br><br>
         <a href="https://instagram.com/omrfsirin" target="_blank">https://instagram.com/omrfsirin</a>
       </p>
-      <div class="navigation-buttons">
-    <button onclick="window.history.back()">⬅️ Geri</button>
-    <button onclick="window.history.forward()">İleri ➡️</button>
-</div>
-
-<style>
-.navigation-buttons {
-    margin-top: 30px;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-
-.navigation-buttons button {
-    background-color: #014421;
-    color: #c9fdd7;
-    border: 2px solid #c9fdd7;
-    border-radius: 8px;
-    padding: 10px 20px;
-    font-size: 1rem;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-.navigation-buttons button:hover {
-    background-color: #1d6b34;
-}
+    
     </body>
     </html>
     `);
