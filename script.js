@@ -179,8 +179,20 @@ function openAbout() {
       <h1>☀ Hakkında ☀</h1>
       <img src="https://raw.githubusercontent.com/omerfaruksirin/siir-sitesi/main/OmerFaruk.jpg" alt="Ömer Faruk Şirin">
       <p>
-        Bu site Ömer Faruk'un gönlünden dökülen mânâları dijital bir yuvaya taşıyor.<br/>
-        Ruhun derinliklerine doğru bir yolculuk yapmaya hazır mısınız? 🌟
+        Bu site Ömer Faruk'un gönlünden dökülen mânâları 
+        <br/>
+        dijital bir yuvaya taşıyor.<br>
+        Her bir dize, ruhunuzda iz bırakacak...<br>
+        Huzura, aşka ve maneviyata adım atın! 
+        <br><br>
+
+        Ömer Faruk Şirin, 16 Eylül 2000 tarihinde Sakarya'nın Adapazarı ilçesinde doğmuştur. 
+        Çocukluk yıllarını Akyazı'da geçiren Ömer Faruk, lise eğitimine burada başlamış,
+        daha sonra Adapazarı'nda devam etmiş ve liseyi açık öğretimle tamamlamıştır.<br><br>
+
+        Ud çalmayı seven Ömer Faruk, duygularını şiir ve yazarlıkla dile getirmektedir. 
+        Manevi ve derin bir iç dünyaya sahip olan Ömer Faruk, aynı zamanda "Eltek Mühendislik" adında bir şirketi yönetmektedir.
+        Bu şirketle camilere yönelik projeler yürütmekte ve bu alanda çalışmalar yapmaktadır.
       </p>
     </body>
     </html>
